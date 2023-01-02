@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Demo</title>
+</head>
+<body>
+    <div class="scroll_up"><a href="#"><i class="fa-regular fa-circle-up"></i></a></div>
+    <div id="container">
+        <section id="main_header_container">
+            <div class="background"></div>
+            <div class="overlay"></div>
+            <div class="main_header">
+                <div class="profile"></div>
+                <span>Hello, I'm Elvis</span>
+                <span>an inspiring web developer</span>
+            </div>
+            <div class="menu" onclick="menuToggle()">
+                <ul class="menu_list">
+                    <a href="#bio"><li><i class="fa-regular fa-user"></i>about me</li></a>
+                    <a href="#skills"><li><i class="fas fa-book"></i>skills</li></a>
+                    <a href="#projects"><li><i class="fas fa-tasks"></i>projects</li></a>
+                    <a href="#contact_form"><li><i class="fab fa-wpforms"></i>contact form</li></a>
+                </ul>
+                <div class="hamburger_menu">
+                    <div class="menu_lines">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll_button">
+                <span>SCROLL DOWN</span>
+                <div class="arrow">
+                    <span class="left_arrow"></span>
+                    <span class="right_arrow"></span>
+                </div>
+            </div>
+        </section>
+        <section id="bio">
+            <div>
+                <p><span>Hi there</span><br><br></p>
+                <p>I have a strong passion for anything
+                    web related, mostly developing web applications.
+                    You can find more about my recent projects <a href="#projects">below</a>.
+                </p>
+        </section>
+        <section class="profile_image">
+        </section>
+        <section id="skills">
+            <h1>What I do</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-code fa-5x"></i>
+                        <h3>development</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure soluta labore unde voluptatum magni. Dolor obcaecati quis velit ad sequi, minima voluptates ex mollitia ipsum beatae eius fugiat minus omnis!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-paint-brush fa-5x"></i>
+                        <h3>design</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, reprehenderit dignissimos animi tempora in, necessitatibus aliquam dolor beatae blanditiis, odio voluptatem inventore corrupti perferendis fugit at rem maiores ullam nisi?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="far fa-lightbulb"></i>
+                        <h3>open source</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptas, illo animi fuga repudiandae adipisci reprehenderit enim, vitae ratione esse veniam veritatis officia tempora ducimus ut quia! Quisquam, reprehenderit ad.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-globe fa-5x"></i>
+                        <h3>networking</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste amet accusantium, ipsum velit reprehenderit optio quaerat sit, repellat quae aut. Pariatur obcaecati aperiam voluptatibus dignissimos quia rerum dolores doloremque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>I've worked on:</h1>
+            <div class="projects-container">
+                <div class="first-project">
+                    <div class="card dark-card">
+                        <a href="https://nuketurtle.github.io/horiseon-marketing/" target="_blank"><img src="./img/digital-marketing-meeting.jpg" alt="Picture of digital marketing meeting"></a>
+                        <h3>Horiseon Marketing and SEO</h3>
+                        <p>A client, a marketing agency has hired me to refactor an existing site to make it more accessible.</p>
+                    </div>
+                </div>
+                <div class="projects-row">
+                    <div class="projects-column">
+                        <div class="card">
+                            <img src="./img/image2.webp" alt="asdf asd fasd">
+                            <h3>asdf asd fasd</h3>
+                            <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                        </div>
+                        <div class="card dark-card">
+                            <img src="./img/image3.webp" alt="asdf asd fasd">
+                            <h3>asdf asd fasd</h3>
+                            <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                        </div>
+                    </div>
+                    <div class="projects-column">
+                        <div class="card">
+                            <img src="./img/image4.webp" alt="asdf asd fasd">
+                            <h3>asdf asd fasd</h3>
+                            <p>kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj kljasdkjsk dfj asdflkjsadb nfksajdfaskd jfasldkfjsaldk jaskdj</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="contact_form">
+            <i class="fa fa-paper-plane fa-5x"></i>
+            <p>
+                <h1>Are you interested?</h1>
+                <span>Wether you have a project or just want to say hi</span><br>
+                <span>Feel free to shoot me a message</span><br>
+            </p>
+            <button>Message Me</button>
+        </section>
+        <footer>
+            <h1>Stalk Me</h1>
+            <div id="socials">
+                <a href="mailto:stiglic.elvis@gmail.com?subject=Let's collab (from Portfolio)">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>twsfv sdaf sadf sadf asdf asdf sadf sadfgv dfb tgnb rty </p>
+        </footer>
+    </div>
+</body>
+</html>
