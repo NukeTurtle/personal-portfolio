@@ -55,11 +55,11 @@ body {
     border-bottom: 1px solid red;
 }
 .profile_image{
-    background: url(./img/back_image2.jpg) white;
+    background: url(./img/back_image5.jpg) white;
     background-size: cover;
     background-position-y: center;
     height: 300px;
-    /* filter: saturate(0); */
+    filter: saturate(0);
 }
 .background {
     background: linear-gradient(0deg, #111, transparent 180%), url(img/back.jpg);
@@ -124,6 +124,7 @@ a {
     top: 20px;
     cursor: pointer;
     transition-duration: 0.5s;
+    width: 30px;
 }
 .menu_lines {
     display: flex;
@@ -204,6 +205,7 @@ section{
 }
 #bio a{
     color: var(--link-primary);
+    text-decoration: underline;
 }
 #skills{
     background-color: #fff;
@@ -284,10 +286,8 @@ footer{
 }
 #socials{
     display: flex;
-    background-color: white;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
+    width: 20%;
+    margin: 0 auto;
 }
 #socials i::before {
     font-size: 1.5em;
