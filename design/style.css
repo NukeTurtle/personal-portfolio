@@ -1,0 +1,82 @@
+:root{
+    --text: #282828;
+    --background: #E7E5DD;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F1EFE9;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 1vw;
+    color: var(--text);
+}
+#profile{
+    text-align: center;
+}
+#profile img{
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+h1{
+    margin: 0;
+}
+main{
+    background-color: var(--background);
+    column-count: 3;
+    text-align:center;
+    background-color: var(--background);
+}
+#profile a img{
+    width: 1.5vw;
+    padding: .5vw 1vw;
+}
+figure{
+    display: inline-block;
+    margin-bottom: 1vw;
+    box-shadow: 25px 25px 20px -20px #555;
+}
+figcaption{
+    background-color: var(--text);
+    color: var(--background);
+    text-align: center;
+    padding: 1vw;
+}
+.image{
+    width: 100%;
+    display:block;
+    margin-bottom:0.3em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main #container img{
+    width: 20vw;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    border-top: 1px dashed;
+}
+
+@media screen and (max-width: 850px){
+    main{
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 550px){
+    body{
+        font-size: 3vw;
+    }
+    #profile a img{
+        width: 4vw;
+    }
+    main{
+        column-count: 1;
+        text-align: center;
+    }
+    .user{
+        justify-content: center;
+    }
+}

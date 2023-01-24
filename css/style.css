@@ -44,7 +44,7 @@ body {
     padding: 0;
 }
 .profile{
-    background-image: url(./img/elvis.png);
+    background-image: url(../img/elvis.png);
     width: 100px;
     height: 100px;
     background-size: 100px;
@@ -55,14 +55,14 @@ body {
     border-bottom: 1px solid red;
 }
 .profile_image{
-    background: url(./img/back_image5.jpg) white;
+    background: url(../img/back_image5.jpg) white;
     background-size: cover;
     background-position-y: center;
     height: 300px;
     filter: saturate(0);
 }
 .background {
-    background: linear-gradient(0deg, #111, transparent 180%), url(img/back.jpg);
+    background: linear-gradient(0deg, #111, transparent 180%), url(../img/back.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
